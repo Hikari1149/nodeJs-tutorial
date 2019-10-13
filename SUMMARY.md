@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [NodeJS Tutorial](README.md)
 * [Small-Chat](small-chat.md)
 
