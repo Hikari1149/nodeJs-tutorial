@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Small Chat</title>
+        <link href="/index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="content">
+            <div id="small-chat">
+                <h2>SmallChat</h2>
+                <div id="chat-window">
+                    <div id="output">
+
+
+                    </div>
+
+                    <div id="feedback">
+
+
+                    </div>
+                </div> 
+
+                <input type="text" id="handle" placeholder="Name"/>
+                <input type="text" id="message" placeholder="Message">
+                <button id="send">
+                    Send
+                </button>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+        <script src="./chat.js"></script>
+    </body>
+
+</html>
